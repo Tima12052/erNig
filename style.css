@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #333;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.bullet {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
