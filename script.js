@@ -32,6 +32,11 @@ function movePlayer() {
     if (keys["d"] && playerX < gameContainer.clientWidth - player.clientWidth) {
         playerX += playerSpeed;
     }
+    
+    if (keys["e"] && playerY > gameContainer.clientHeight - player.clientHeight) {
+        playerY + playerSpeed;
+    }
+    
     player.style.left = playerX + "px";
     player.style.top = playerY + "px";
 }
