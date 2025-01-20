@@ -32,7 +32,7 @@ function movePlayer() {
     if (keys["d"] && playerX < gameContainer.clientWidth - player.clientWidth) {
         playerX += playerSpeed;
     }
-    
+    //meine teil
     if (keys["e"] && playerY > gameContainer.clientHeight - player.clientHeight) {
         playerY + playerSpeed;
     }
