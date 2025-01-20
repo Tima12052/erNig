@@ -142,7 +142,7 @@ function shootBullet(startX, startY, targetX, targetY) {
 }
 
 // Появление врагов через определенные интервалы
-setInterval(createEnemy, 0010);
+setInterval(createEnemy, 2000);
 
 // Основной игровой цикл
 function gameLoop() {
